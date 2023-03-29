@@ -849,7 +849,7 @@
 		<key>account</key>
 		<dict>
 			<key>begin</key>
-			<string>([A-Z][a-z]+)(:)</string>
+			<string>([\p{L}\p{M}]+)(:)</string>
 			<key>beginCaptures</key>
 			<dict>
 				<key>1</key>
